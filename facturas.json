@@ -1,0 +1,100 @@
+{
+  "facturas": [
+    {
+      "folio": "FAC-0001",
+      "fecha": "2025-09-30 14:30:21",
+      "cliente": {
+        "rfc": "25955399",
+        "nombre": "emmanuel saavedra",
+        "direccion": "tanero"
+      },
+      "conceptos": [
+        {
+          "descripcion": "pago de casa",
+          "cantidad": 1.0,
+          "precio": 160.0,
+          "importe": 160.0
+        }
+      ],
+      "subtotal": 160.0,
+      "iva": 25.6,
+      "total": 185.6,
+      "iva_porcentaje": 16
+    },
+    {
+      "folio": "FAC-0002",
+      "fecha": "2025-09-30 14:31:53",
+      "cliente": {
+        "rfc": "25955399",
+        "nombre": "emmanuel",
+        "direccion": "tanero"
+      },
+      "conceptos": [
+        {
+          "descripcion": "pago de casa",
+          "cantidad": 1.0,
+          "precio": 160.0,
+          "importe": 160.0
+        }
+      ],
+      "subtotal": 160.0,
+      "iva": 25.6,
+      "total": 185.6,
+      "iva_porcentaje": 16
+    },
+    {
+      "folio": "FAC-0003",
+      "fecha": "2025-09-30 16:42:24",
+      "cliente": {
+        "rfc": "25955399",
+        "nombre": "emmanuel saavedra",
+        "direccion": "tanero"
+      },
+      "conceptos": [
+        {
+          "descripcion": "pago de mensualidad",
+          "cantidad": 1.0,
+          "precio": 60.0,
+          "importe": 60.0
+        }
+      ],
+      "subtotal": 60.0,
+      "iva": 9.6,
+      "total": 69.6,
+      "iva_porcentaje": 16
+    },
+    {
+      "folio": "FAC-0004",
+      "fecha": "2026-04-09 12:56:49",
+      "cliente": {
+        "rfc": "dadasd",
+        "nombre": "asdasd",
+        "direccion": "dasda"
+      },
+      "conceptos": [
+        {
+          "descripcion": "dasd",
+          "cantidad": 1.0,
+          "precio": 100.0,
+          "importe": 100.0
+        }
+      ],
+      "subtotal": 100.0,
+      "iva": 16.0,
+      "total": 116.0,
+      "iva_porcentaje": 16
+    }
+  ],
+  "clientes": [
+    {
+      "rfc": "25955399",
+      "nombre": "emmanuel saavedra",
+      "direccion": "tanero"
+    },
+    {
+      "rfc": "dadasd",
+      "nombre": "asdasd",
+      "direccion": "dasda"
+    }
+  ]
+}
